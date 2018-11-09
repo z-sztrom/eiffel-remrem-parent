@@ -1,3 +1,7 @@
+## 0.0.6
+- Version upgrade.
+- Jackson.databind.version updated to 2.9.5
+
 ## 0.0.5
 - Verson alignments.
 - google-gson.version to 2.8.1 and logback.version to 1.1.9
