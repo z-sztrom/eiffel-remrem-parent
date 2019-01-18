@@ -1,3 +1,7 @@
+## 0.0.8
+- Version upgrade.
+- Jackson.databind.version updated to 2.9.8
+
 ## 0.0.7
 - Version upgrade.
 - json-schema-validator updated to 2.2.8
