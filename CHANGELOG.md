@@ -1,3 +1,7 @@
+## 1.0.0
+- Version upgrade.
+- Upgraded the remrem parent version to 1.0.0
+
 ## 0.0.8
 - Version upgrade.
 - Jackson.databind.version updated to 2.9.8
