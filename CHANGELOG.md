@@ -1,6 +1,6 @@
 ## 2.0.0
 - Version upgrade for Agen Edition uplift
-- Group Id Changed for Ericsson to eiffel-community
+- Group Id Changed from Ericsson to eiffel-community
 
 ## 1.0.0
 - Version upgrade.
