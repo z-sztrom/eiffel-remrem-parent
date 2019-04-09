@@ -1,3 +1,7 @@
+## 2.0.0
+- Version upgrade for Agen Edition uplift
+- Group Id Changed for Ericsson to eiffel-community
+
 ## 1.0.0
 - Version upgrade.
 - Upgraded the remrem parent version to 1.0.0
