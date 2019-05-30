@@ -1,3 +1,6 @@
+## 2.0.1
+- Upgraded jackson-databind from 2.9.8 to 2.9.9 to resolve security vulnerability issue.
+
 ## 2.0.0
 - Version upgrade for Agen Edition uplift
 - Group Id Changed from Ericsson to eiffel-community
