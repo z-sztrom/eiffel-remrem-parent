@@ -1,3 +1,6 @@
+## 2.0.5
+- Uplifted JUnit from 4.12 to 4.13.1 to resolve security vulnerability issue.
+
 ## 2.0.4
 - Uplifted jackson-databind from 2.9.10.1 to 2.10.1 to resolve security vulnerability issue.
 
