@@ -1,3 +1,6 @@
+## 2.0.7
+- Uplifted jackson databind from 2.12.1 to 2.13.3 to resolve security vulnerability issue.
+
 ## 2.0.6
 - Uplifted logback dependency from 1.2.0 to 1.2.10 to resolve vulnerability issue.
 - Uplifted jackson databind from 2.10.1 to 2.12.1 to resolve security vulnerability issue.
