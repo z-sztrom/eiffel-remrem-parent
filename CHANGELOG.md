@@ -1,3 +1,6 @@
+## 2.0.8
+- Uplifted gson version from 2.8.1 to 2.9.0 to resolve security vulnerability issue.
+
 ## 2.0.7
 - Uplifted jackson databind from 2.12.1 to 2.13.3 to resolve security vulnerability issue.
 
