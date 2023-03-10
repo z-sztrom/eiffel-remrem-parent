@@ -12,12 +12,17 @@
         <junit.version>4.13.1</junit.version>
         <javax-servlet.version>4.0.0</javax-servlet.version>
         <commons-cli.version>1.3.1</commons-cli.version>
-        <rest-assured.version>4.3.1</rest-assured.version>
+        <rest-assured.version>5.3.0</rest-assured.version>
         <google-gson.version>2.8.1</google-gson.version>
         <springfox-swagger2.version>2.6.1</springfox-swagger2.version>
+<!--        <springfox-swagger2.version>2.9.2</springfox-swagger2.version>-->
+        <swagger.ui.version>2.6.1</swagger.ui.version>
+<!--        <swagger.ui.version>2.9.2</swagger.ui.version>-->
         <jacoco-maven-plugin.version>0.7.5.201505241946</jacoco-maven-plugin.version>
-        <jasypt-spring-boot-starter.version>2.0.0</jasypt-spring-boot-starter.version>
-        <spring-security-ldap.version>5.0.5.RELEASE</spring-security-ldap.version>
+        <jasypt-spring-boot-starter.version>3.0.5</jasypt-spring-boot-starter.version>
+<!--        <spring-security-ldap.version>5.0.5.RELEASE</spring-security-ldap.version>-->
+<!--        <spring-security-ldap.version>5.6.9</spring-security-ldap.version>-->
+        <spring-security-ldap.version>5.7.4</spring-security-ldap.version>
         <javax.inject.version>2.5.0-b60</javax.inject.version>
         <logback.version>1.2.10</logback.version>
         <commans.lang3.version>3.7</commans.lang3.version>
@@ -26,8 +31,7 @@
         <jackson.databind.version>2.13.3</jackson.databind.version>
         <json.schema.validator.version>2.2.8</json.schema.validator.version>
         <gson.version>2.9.0</gson.version>
-        <swagger.ui.version>2.6.1</swagger.ui.version>
-        <powermock.version>1.7.3</powermock.version>
+<!--        <powermock.version>1.7.3</powermock.version>-->
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -136,6 +140,11 @@
                 <artifactId>springfox-swagger2</artifactId>
                 <version>${swagger.ui.version}</version>
             </dependency>
+<!--            <dependency>-->
+<!--                <groupId>io.springfox</groupId>-->
+<!--                <artifactId>springfox-boot-starter</artifactId>-->
+<!--                <version>${swagger.ui.version}</version>-->
+<!--            </dependency>-->
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
