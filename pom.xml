@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.eiffel-community</groupId>
     <artifactId>eiffel-remrem-parent</artifactId>
-    <version>2.1.8-openjdk17</version>
+    <version>2.0.10-openjdk17</version>
     <packaging>pom</packaging>
     <properties>
         <slf4j.version>1.7.25</slf4j.version>
@@ -22,16 +22,15 @@
         <jasypt-spring-boot-starter.version>3.0.5</jasypt-spring-boot-starter.version>
 <!--        <spring-security-ldap.version>5.0.5.RELEASE</spring-security-ldap.version>-->
 <!--        <spring-security-ldap.version>5.6.9</spring-security-ldap.version>-->
-        <spring-security-ldap.version>5.7.4</spring-security-ldap.version>
+        <spring-security-ldap.version>5.7.5</spring-security-ldap.version>
         <javax.inject.version>2.5.0-b60</javax.inject.version>
         <logback.version>1.2.10</logback.version>
         <commans.lang3.version>3.7</commans.lang3.version>
         <commons.io.version>2.7</commons.io.version>
         <mockito.version>4.11.0</mockito.version>
-        <jackson.databind.version>2.13.3</jackson.databind.version>
+        <jackson.databind.version>2.14.1</jackson.databind.version>
         <json.schema.validator.version>2.2.8</json.schema.validator.version>
         <gson.version>2.9.0</gson.version>
-<!--        <powermock.version>1.7.3</powermock.version>-->
     </properties>
     <dependencyManagement>
         <dependencies>
