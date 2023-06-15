@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.eiffel-community</groupId>
     <artifactId>eiffel-remrem-parent</artifactId>
-    <version>2.0.11</version>
+    <version>2.0.12</version>
     <packaging>pom</packaging>
     <properties>
         <slf4j.version>1.7.25</slf4j.version>
@@ -22,7 +22,7 @@
         <logback.version>1.2.10</logback.version>
         <commans.lang3.version>3.7</commans.lang3.version>
         <commons.io.version>2.7</commons.io.version>
-        <mockito.version>4.11.0</mockito.version>
+        <mockito.version>5.3.1</mockito.version>
         <jackson.databind.version>2.14.1</jackson.databind.version>
         <json.schema.validator.version>2.2.8</json.schema.validator.version>
         <gson.version>2.10.1</gson.version>
