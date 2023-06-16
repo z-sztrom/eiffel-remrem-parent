@@ -1,3 +1,9 @@
+## 2.0.12
+- Mockito framework upgraded to 5.3.1
+
+## 2.0.11
+- Necessary changes to support OpenJDK 17
+
 ## 2.0.10
 - Uplifted spring-boot version from 2.0.1.RELEASE to 2.7.5.
 - Uplifted spring-security-ldap version from 5.0.5.RELEASE to 5.7.5.
