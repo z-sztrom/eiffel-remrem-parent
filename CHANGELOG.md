@@ -1,3 +1,6 @@
+## 2.0.13
+- Springboot uplifted to 2.7.18
+
 ## 2.0.12
 - Mockito framework upgraded to 5.3.1
 
