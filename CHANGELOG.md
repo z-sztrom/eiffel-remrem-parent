@@ -1,4 +1,5 @@
 ## 2.0.13
+- Logback uplifted to 1.2.13
 - Springboot uplifted to 2.7.18
 
 ## 2.0.12
