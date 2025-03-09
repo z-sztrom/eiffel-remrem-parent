@@ -1,3 +1,6 @@
+## 2.0.14
+- Ensure Eclipse Temurin is used to build the library
+
 ## 2.0.13
 - Logback uplifted to 1.2.13
 - Springboot uplifted to 2.7.18
