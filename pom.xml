@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.eiffel-community</groupId>
     <artifactId>eiffel-remrem-parent</artifactId>
-    <version>2.0.22</version>
+    <version>2.0.23</version>
     <packaging>pom</packaging>
     <properties>
         <slf4j.version>2.0.17</slf4j.version>
@@ -18,7 +18,7 @@
         <springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
         <jacoco-maven-plugin.version>0.8.14</jacoco-maven-plugin.version>
         <jasypt-spring-boot-starter.version>3.0.5</jasypt-spring-boot-starter.version>
-        <spring-security-ldap.version>7.0.3</spring-security-ldap.version>
+        <spring-security-ldap.version>7.0.5</spring-security-ldap.version>
         <javax.inject.version>2.5.0-b60</javax.inject.version>
         <logback.version>1.5.32</logback.version>
         <commans.lang3.version>3.18.0</commans.lang3.version>
@@ -165,6 +165,35 @@
                 <artifactId>jakarta.servlet-api</artifactId>
                 <version>6.0.0</version>
             </dependency>
+            <dependency>
+                <groupId>com.jayway.jsonpath</groupId>
+                <artifactId>json-path</artifactId>
+                <version>2.10.0</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.spdx</groupId>
+                <artifactId>spdx-maven-plugin</artifactId>
+                <!-- please check for updates on https://search.maven.org/search?q=a:spdx-maven-plugin -->
+                <version>1.0.3</version>
+                <executions>
+                    <execution>
+                        <id>build-spdx</id>
+                        <goals>
+                            <goal>createSPDX</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                  <excludedFilePatterns>
+                    <excludedFilePattern>*.spdx</excludedFilePattern>
+                  </excludedFilePatterns>
+                  <!-- See documentation below for additional configuration -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
